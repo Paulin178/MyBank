@@ -112,6 +112,7 @@ img {
   overflow: hidden;
 }
 
+
 /* 
 ---------------------------------------------
 Global Styles
@@ -448,7 +449,7 @@ Header Style
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
   color: #fff;
-  background-color: #7453fc;
+  background-color: #000000;
 }
 
 .background-header .main-nav .nav li:hover a,
@@ -632,7 +633,7 @@ Header Style
     width: 100%;
   }
   .header-area {
-    background-color: #f7f7f7;
+    background-color: #fff;
     padding: 0px 15px;
     height: 100px;
     box-shadow: none;
@@ -640,6 +641,7 @@ Header Style
   }
   .header-area .container {
     padding: 0px;
+    
   }
   .header-area .logo {
     margin-left: 0px;
@@ -822,15 +824,7 @@ Categories & Collections Style
   position: relative;
 }
 
-.categories-collections:after {
-  background-image: url(/assets/images/category-collection-dec.png);
-  width: 300px;
-  height: 282px;
-  position: absolute;
-  bottom: 0;
-  right: 30px;
-  content: '';
-}
+
 
 .categories .item {
   background-color: #282b2f;
@@ -1229,24 +1223,24 @@ Footer Style
 */
 
 footer {
-  background: rgb(125,90,254);
-  background: linear-gradient(132deg, rgba(125,90,254,1) 25%, rgba(160,84,244,1) 100%);
+  background: rgb(255, 255, 255);
+  background: linear-gradient(132deg, rgb(255, 255, 255) 25%, rgb(255, 255, 255) 100%);
   text-align: center;
   padding: 25px 0px;
 }
 
 footer p {
-  color: #fff;
+  color: #000000;
 }
 
 footer p a {
-  color: #fff;
+  color: #000000;
   font-weight: 500;
   transition: all .3s;
 }
 
 footer p a:hover {
-  color: #fff;
+  color: #000000;
   opacity: 0.75;
 }
 
