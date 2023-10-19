@@ -399,6 +399,7 @@ Header Style
   margin-top: 8px;
 }
 
+
 .background-header .main-nav .logo img {
   width: 140px;
 }
@@ -406,10 +407,10 @@ Header Style
 .header-area .main-nav .nav {
   display: inline-flex;
   flex-basis: 70%;
-  justify-content: flex-end;
+  justify-content: space-around;
   vertical-align: middle;
   text-align: right;
-  margin-top: 15px;
+  margin-top: 0px;
   margin-right: 0px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -417,6 +418,8 @@ Header Style
   transition: all 0.3s ease 0s;
   position: relative;
   z-index: 999;
+  flex-direction: row;
+  align-content: center;
 }
 
 .header-area .main-nav .nav li {
@@ -611,7 +614,7 @@ Header Style
   .header-area .main-nav .logo {
     position: absolute;
     left: 30px;
-    top: 15px;
+    top: 0px;
   }
   .background-header .main-nav .logo {
     top: 0px;
